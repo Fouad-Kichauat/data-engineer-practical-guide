@@ -1,8 +1,7 @@
 # Practical Guide to Data Engineering
 This Github Repo will contain a shortlist of exercises and learning materials for a fast **practical** introduction to Data Engineering.
 
-## Table of Content
-
+## Prerequisites
 ### 1. Bare Fundamentals
 1. Programming Language: *(choose your flavor)*
     - Python
@@ -14,8 +13,10 @@ This Github Repo will contain a shortlist of exercises and learning materials fo
 1. Data modelling
 2. Storage
 3. Datalake vs Datawarehouse
+4. Change Data Capture (CDC)
 
-### 3. Extract, Transform & Load
+## Tooling used
+
 1. Pipeline building: *(choose your flavor)*
     - Apache Spark/PySpark
     - Apache Beam
@@ -28,4 +29,10 @@ This Github Repo will contain a shortlist of exercises and learning materials fo
     - Apache Airflow
     - Apache Nifi
     - Luigi
+4. Storage:
+    - MinIO
+    - PostgreSQL
 
+## Table of Content
+
+### Exercise 1: Space X flight data
