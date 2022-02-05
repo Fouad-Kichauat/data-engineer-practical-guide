@@ -746,3 +746,34 @@
 2022-02-05 11:17:12,219 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 50000 nanos
 2022-02-05 11:17:12,870 INFO [pool-23-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
 2022-02-05 11:17:12,873 INFO [pool-23-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-02-05 11:17:16,019 INFO [Process Cluster Protocol Request-4] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 4e171d2c-1b28-4ce5-b09a-8662566f8927 (type=HEARTBEAT, length=2234 bytes) from mynifi:8080 in 2 millis
+2022-02-05 11:17:16,021 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-02-05 11:17:16,008 and sent to mynifi:8082 at 2022-02-05 11:17:16,021; send took 12 millis
+2022-02-05 11:17:17,224 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 38542 nanos
+2022-02-05 11:17:19,039 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@7553ad52 checkpointed with 2 Records and 0 Swap Files in 6 milliseconds (Stop-the-world time = 2 milliseconds, Clear Edit Logs time = 1 millis), max Transaction ID 3
+2022-02-05 11:17:20,075 INFO [Cleanup Archive for default] o.a.n.c.repository.FileSystemRepository Successfully deleted 0 files (0 bytes) from archive
+2022-02-05 11:17:21,029 INFO [Process Cluster Protocol Request-5] o.a.n.c.p.impl.SocketProtocolListener Finished processing request dc91fb32-47ef-414c-94e1-5c47684549f4 (type=HEARTBEAT, length=2234 bytes) from mynifi:8080 in 1 millis
+2022-02-05 11:17:21,029 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-02-05 11:17:21,023 and sent to mynifi:8082 at 2022-02-05 11:17:21,029; send took 6 millis
+2022-02-05 11:17:22,230 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 61750 nanos
+2022-02-05 11:17:26,052 INFO [Process Cluster Protocol Request-6] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 295c5647-24fa-4270-9bc0-363b01d8c5da (type=HEARTBEAT, length=2234 bytes) from mynifi:8080 in 6 millis
+2022-02-05 11:17:26,055 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-02-05 11:17:26,033 and sent to mynifi:8082 at 2022-02-05 11:17:26,055; send took 21 millis
+2022-02-05 11:17:27,235 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 104292 nanos
+2022-02-05 11:17:31,070 INFO [Process Cluster Protocol Request-7] o.a.n.c.p.impl.SocketProtocolListener Finished processing request 03e2c138-b9d1-43a0-86dc-6cd4c819e51d (type=HEARTBEAT, length=2234 bytes) from mynifi:8080 in 2 millis
+2022-02-05 11:17:31,071 INFO [Clustering Tasks Thread-2] o.a.n.c.c.ClusterProtocolHeartbeater Heartbeat created at 2022-02-05 11:17:31,059 and sent to mynifi:8082 at 2022-02-05 11:17:31,071; send took 12 millis
+2022-02-05 11:17:32,238 INFO [Heartbeat Monitor Thread-1] o.a.n.c.c.h.AbstractHeartbeatMonitor Finished processing 1 heartbeats in 32208 nanos
+2022-02-05 11:17:32,880 INFO [pool-23-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2022-02-05 11:17:32,882 INFO [pool-23-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 0 records in 0 milliseconds
+2022-02-05 11:17:34,105 INFO [main-EventThread] o.a.c.f.state.ConnectionStateManager State change: SUSPENDED
+2022-02-05 11:17:34,112 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@68e489bb Connection State changed to SUSPENDED
+2022-02-05 11:17:34,131 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager Because Connection State was changed to SUSPENDED, will relinquish leadership for role 'Cluster Coordinator'
+2022-02-05 11:17:34,136 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@68e489bb has been interrupted; no longer leader for role 'Cluster Coordinator'
+2022-02-05 11:17:34,148 INFO [Leader Election Notification Thread-1] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@68e489bb This node is no longer leader for role 'Cluster Coordinator'
+2022-02-05 11:17:34,152 INFO [Leader Election Notification Thread-1] o.apache.nifi.controller.FlowController This node is no longer the elected Active Cluster Coordinator
+2022-02-05 11:17:34,147 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@de81f85 Connection State changed to SUSPENDED
+2022-02-05 11:17:34,165 INFO [Curator-ConnectionStateManager-0] o.a.n.c.l.e.CuratorLeaderElectionManager Because Connection State was changed to SUSPENDED, will relinquish leadership for role 'Primary Node'
+2022-02-05 11:17:34,170 INFO [Leader Election Notification Thread-2] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@de81f85 has been interrupted; no longer leader for role 'Primary Node'
+2022-02-05 11:17:34,172 INFO [Leader Election Notification Thread-2] o.a.n.c.l.e.CuratorLeaderElectionManager org.apache.nifi.controller.leader.election.CuratorLeaderElectionManager$ElectionListener@de81f85 This node is no longer leader for role 'Primary Node'
+2022-02-05 11:17:34,174 INFO [Leader Election Notification Thread-2] o.apache.nifi.controller.FlowController This node is no longer Primary Node
+2022-02-05 11:17:34,435 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2022-02-05 11:17:34,437 INFO [pool-2-thread-2] org.apache.nifi.NiFi Initiating shutdown of Jetty web server...
+2022-02-05 11:17:34,468 INFO [pool-2-thread-2] o.eclipse.jetty.server.AbstractConnector Stopped ServerConnector@217235f5{HTTP/1.1, (http/1.1)}{mynifi:8080}
+2022-02-05 11:17:34,470 INFO [pool-2-thread-2] org.eclipse.jetty.server.session node0 Stopped scavenging

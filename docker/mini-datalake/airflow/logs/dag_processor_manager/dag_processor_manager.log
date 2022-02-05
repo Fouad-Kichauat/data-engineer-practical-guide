@@ -1131,3 +1131,7 @@
 [2022-02-05 11:16:55,256] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-02-05 11:11:55.255689+00:00
 [2022-02-05 11:17:07,267] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
 [2022-02-05 11:17:07,274] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-02-05 11:12:07.274335+00:00
+[2022-02-05 11:17:19,297] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-05 11:17:19,310] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-02-05 11:12:19.309064+00:00
+[2022-02-05 11:17:31,321] {{dag_processing.py:1292}} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-05 11:17:31,326] {{dag_processing.py:1296}} INFO - Failing jobs without heartbeat after 2022-02-05 11:12:31.325914+00:00
