@@ -1,0 +1,4 @@
+docker/mini-datalake/airflow/
+docker/mini-datalake/nifi/
+docker/mini-datalake/minio/
+docker/others/
